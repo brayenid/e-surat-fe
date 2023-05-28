@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-nunito bg-gray-50;
+}
+.viewTitleContainer {
+  @apply p-4 bg-white text-xl font-medium text-gray-800 shadow-sm flex justify-between items-center;
+}
+.gridContainer {
+  @apply grid grid-cols-[repeat(auto-fit,_minmax(300px,_1fr))] gap-4 p-4;
+}
+.gridChild {
+  @apply w-full shadow-sm p-4 rounded-sm max-h-[75vh] overflow-y-auto bg-white;
+}
+.gridChild h2 {
+  @apply text-center pb-4;
+}
+form {
+  @apply flex flex-col gap-4;
+}
+form input {
+  @apply border border-solid border-gray-300 p-2 rounded-md;
+}
+form input::placeholder {
+  @apply font-light text-sm;
+}
+form input:focus,
+form button:focus {
+  @apply border border-blue-300 outline-none;
+}
+button,
+[type='submit'] {
+  @apply p-2 rounded-md bg-blue-500 text-white uppercase text-xs hover:bg-blue-600;
+}
+.label {
+  @apply flex flex-col text-sm text-gray-500;
+}
