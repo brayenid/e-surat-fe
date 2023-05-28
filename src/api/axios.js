@@ -3,7 +3,7 @@ import jwtDecode from 'jwt-decode'
 import Auth from '../services/auth'
 import TokenStorage from '../services/storage'
 
-axios.defaults.baseURL = 'http://localhost:3000'
+axios.defaults.baseURL = 'http://34.101.41.38'
 axios.defaults.withCredentials = true
 
 //Buat sebuah objek axios baru khusus untuk permintaan di luar autentikasi dan registrasi
