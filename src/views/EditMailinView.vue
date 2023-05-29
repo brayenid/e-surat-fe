@@ -89,6 +89,6 @@ onMounted(async () => {
 </template>
 <style scoped lang="postcss">
 .editContainer {
-  @apply max-w-md w-full rounded-sm m-auto p-6 shadow-sm my-4 bg-white;
+  @apply max-w-lg w-full rounded-sm m-auto p-6 shadow-sm my-4 bg-white;
 }
 </style>

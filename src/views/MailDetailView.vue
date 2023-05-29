@@ -88,7 +88,7 @@ onMounted(async () => {
 
 <style scoped lang="postcss">
 .detailContainer {
-  @apply max-w-md w-full rounded-sm m-auto p-6 shadow-sm my-4 bg-white;
+  @apply max-w-lg w-full rounded-sm m-auto p-6 shadow-sm my-4 bg-white;
 }
 td {
   @apply border-b border-l-0 border-r-0 border-solid border-gray-200 p-2;
